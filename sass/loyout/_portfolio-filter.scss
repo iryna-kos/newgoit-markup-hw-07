@@ -1,0 +1,37 @@
+.portfolio {
+    color: $secondary-color;
+}
+
+.filter {
+    padding: 94px 215px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.filter-list:not(:last-child) {
+    margin-right: 8px;
+    }
+
+.filter-list-item {
+    color: $title-text-color;
+    background-color: $background-color;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.6;
+letter-spacing: 0.03em;
+border-radius: 4px;
+padding: 6px 22px;  
+border: 1px solid transparent;
+border-color: $background-color;
+
+}
+
+.filter-list-item:hover {
+background-color: $secondary-color;
+color: $background-color;
+}

@@ -1,0 +1,29 @@
+.clients {
+    padding: 94px 215px;
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+    &-link {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    }
+}
+
+
+.clients-link:hover {
+    border-color: $secondary-color;
+    fill: $secondary-color;
+}
+
+
